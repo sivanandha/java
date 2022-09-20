@@ -1,0 +1,19 @@
+package com.exampl.thro;
+
+public class Throw11 {
+	void ageaboue() throw RuntimeException
+	{
+		
+	}
+
+	public static void main(String[] args) {
+		try {
+			throw new ageaboue("yours age is small than 18")
+		} catch ({ e) {
+			// TODO: handle exception
+		}
+
+	}
+
+}
+}

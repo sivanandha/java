@@ -1,0 +1,23 @@
+package com.example;
+
+interface WaterFun {
+	String color = "blue";
+
+	void fillup();
+}
+
+public class InterfaceFun implements WaterFun {
+
+	public static void main(String[] args) {
+		InterfaceFun i = new InterfaceFun();
+		i.fillup();
+
+	}
+
+	@Override
+	public void fillup() {
+		System.out.println("water is fillup quickely");
+
+	}
+
+}

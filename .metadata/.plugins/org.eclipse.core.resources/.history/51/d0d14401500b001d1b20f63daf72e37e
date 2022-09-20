@@ -1,0 +1,19 @@
+package com.exampl.thro;
+
+public class Throw11 {
+
+	public static void main(String[] args) {
+try {
+	Fun();
+} catch (IllegalAccessException e) {
+System.out.println("caught the main");
+}
+	}
+
+	private static void Fun() throws IllegalAccessException{
+		System.out.println("inside the fun()");
+		throw new IllegalAccessException("demo");
+	
+		
+	}
+}
